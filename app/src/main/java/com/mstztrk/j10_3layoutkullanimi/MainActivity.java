@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Şifre uygundur girebilirsin", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this, "Şifre uygun değil", Toast.LENGTH_SHORT).show();
+            
         }
     }
 }
